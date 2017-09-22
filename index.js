@@ -2,7 +2,7 @@
 const program = require('commander');
 const osascript = require('node-osascript');
 
-const widgetDirectoryPath = "";
+const widgetDirectoryPath = "asd";
 
 program
   .version('0.0.1')
