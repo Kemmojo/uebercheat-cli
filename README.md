@@ -12,9 +12,20 @@ Now this is great for reviewing purposes, but what makes it really amazing is th
 
 You may ask "So, why the commandline kit ?", well, in order to change the currently viewed file, you need the advice the widget to change it, by giving the variable which holds the file to be monitorized, the file name you want to be displayed in the panel.
 There are two ways, either you do it manually in the code, or there is a workflow for the alfred application.
-Now, if you like me and find yourself more often playing with the terminal of choice, a tool to handle your Markdown-Preview panel and your markdownfiles, wouldn't just speed up your programming process, it gives you a great way learn coding quicker.
+Now, if you like me and find yourself more often playing with the terminal of choice, a tool to handle your Markdown-Preview panel and your markdownfiles, wouldn't just speed up your programming process, it gives you a great way to learn coding quicker.
 
 Now all blabla´s away, let´s dive in. :)
 
+Note to me - beautify this instruction.
+
+## Dependencies
+* NodeJS
+* Uebersicht
+* Markdown-Preview
+
+## Installation
+```ZSH
+npm i -g uebersicht-cheatsheet-cl-kit
+```
 
 ## Usage
