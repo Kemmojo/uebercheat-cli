@@ -1,8 +1,8 @@
 {
   "name": "uebersicht-cheatsheet-cl-kit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Ubersicht Cheatsheet-Widget Commandline Kit",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,7 +20,7 @@
   "author": "Kemojo",
   "license": "ISC",
   "bin": {
-    "uebercheat": "./index.js"
+    "uebercheat": "./lib/cli.js"
   },
   "bugs": {
     "url": "https://github.com/Kemmojo/uebersicht-cheatsheet-cl-kit/issues"
@@ -28,6 +28,18 @@
   "homepage": "https://github.com/Kemmojo/uebersicht-cheatsheet-cl-kit#readme",
   "dependencies": {
     "commander": "^2.11.0",
+    "inquirer": "^3.3.0",
     "node-osascript": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-react-native": "^3.1.0"
   }
 }
