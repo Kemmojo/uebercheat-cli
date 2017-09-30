@@ -1,8 +1,8 @@
 {
   "name": "uebersicht-cheatsheet-cl-kit",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Ubersicht Cheatsheet-Widget Commandline Kit",
-  "main": "cli.js",
+  "main": "./lib/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -27,10 +27,18 @@
   },
   "homepage": "https://github.com/Kemmojo/uebersicht-cheatsheet-cl-kit#readme",
   "dependencies": {
+    "babel": "^6.23.0",
+    "cheerio": "^1.0.0-rc.2",
     "colors": "^1.1.2",
     "commander": "^2.11.0",
     "inquirer": "^3.3.0",
-    "node-osascript": "^2.0.0"
+    "node-osascript": "^2.0.0",
+    "node-promise": "^0.5.12",
+    "node-pv": "^0.1.5",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "to-markdown": "^3.1.0",
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.0",
