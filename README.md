@@ -1,4 +1,4 @@
-# Commandline Kit for Uebersicht Cheatsheet widget
+# Commandline line Interface for Uebersicht Markdown (Cheatsheet) widget
 This is a simple collection of standard tools for the [Uebersicht](http://tracesof.net/uebersicht/ "Home of Uebersicht") cheatsheet [widget](http://tracesof.net/uebersicht-widgets/#markdown_cheat_sheet "Markdown Preview Widget").
 
 ## Instruction
@@ -20,12 +20,12 @@ Note to me - beautify this instruction.
 
 ## Dependencies
 * NodeJS
-* Uebersicht
-* Markdown-Preview
+* [Uebersicht](http://tracesof.net/uebersicht/ "Home of Uebersicht")
+* [Markdown-Preview](http://tracesof.net/uebersicht-widgets/#markdown_cheat_sheet "Markdown Preview Widget").
 
 ## Installation
 ```ZSH
-npm i -g uebersicht-cheatsheet-cl-kit
+npm i -g uebercheat-cli
 ```
 
 ## Usage
