@@ -29,3 +29,5 @@ npm i -g uebercheat-cli
 ```
 
 ## Usage
+
+- uebercheat open -> Opens Markdown Preview on your Desktop
