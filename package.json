@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kemmojo/uebersicht-cheatsheet-cl-kit.git"
+    "url": "git+https://github.com/Kemmojo/uebercheat-cli.git"
   },
   "keywords": [
     "Uebersicht",
@@ -23,9 +23,9 @@
     "uebercheat": "./lib/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/Kemmojo/uebersicht-cheatsheet-cl-kit/issues"
+    "url": "https://github.com/Kemmojo/uebercheat-cli/issues"
   },
-  "homepage": "https://github.com/Kemmojo/uebersicht-cheatsheet-cl-kit#readme",
+  "homepage": "https://github.com/Kemmojo/uebercheat-cli#readme",
   "dependencies": {
     "babel": "^6.23.0",
     "cheerio": "^1.0.0-rc.2",
