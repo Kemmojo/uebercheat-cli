@@ -57,3 +57,14 @@ typings/
 
 # dotenv environment variables file
 .envrm git
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+.gitignore
+
+.eslintrc.json
+package-lock.json
