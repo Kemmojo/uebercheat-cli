@@ -1,9 +1,0 @@
-{
-    "extends": "airbnb",
-    "plugins": [ "babel", "react", "react-native", "jsx-a11y" ],
-    "rules":{
-      "no-console":0,
-      "jsx-a11y/href-no-hash": "off",
-      "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }]
-    }
-}
