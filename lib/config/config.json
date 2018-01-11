@@ -1,9 +1,9 @@
 {
   "widgetId": "Cheatsheet-index-coffee",
-  "widgetsDirPath": "~/dotfiles/uebersicht/widgets/",
+  "widgetsDirPath": "/Users/kemojo/dotfiles/uebersicht/widgets/",
   "mdpDirName": "Cheatsheet/",
   "mdpfilesDir": "sheets/",
   "selectorFileName": "sheetSelector.txt",
-  "mdpfilesPath": "~/dotfiles/uebersicht/widgets/Cheatsheet/sheets/",
-  "selectoreFilePath": "~/dotfiles/uebersicht/widgets/Cheatsheet/sheetSelector.txt"
+  "mdpfilesPath": "/Users/kemojo/dotfiles/uebersicht/widgets/Cheatsheet/sheets/",
+  "selectoreFilePath": "/Users/kemojo/dotfiles/uebersicht/widgets/Cheatsheet/sheetSelector.txt"
 }
