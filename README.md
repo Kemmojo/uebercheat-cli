@@ -18,6 +18,9 @@ Now all blabla´s away, let´s dive in. :)
 
 Note to me - beautify this instruction.
 
+## In Production
+* Add automatic identification to global variables
+
 ## Dependencies
 * NodeJS
 * [Uebersicht](http://tracesof.net/uebersicht/ "Home of Uebersicht")
