@@ -1,20 +1,22 @@
-# Commandline line Interface for Uebersicht Markdown Preview(Cheatsheet)
-
-This is a simple collection of standard tools for the [Uebersicht](http://tracesof.net/uebersicht/ "Home of Uebersicht") cheatsheet [widget](http://tracesof.net/uebersicht-widgets/#markdown_cheat_sheet "Markdown Preview Widget").
-
 ## Instruction
 
-Ever found yourself trying to remember how this one particular system function was called, maybe because you are working on a complex project and the function is which makes your life easier and now you feed google with some weird searchterms, hoping you get the old result which brought the information.
+Ever found yourself trying to remember how this one particular library function was called, maybe because you were working on a complex project and the function is what makes your life a lot easier and now you feed google with some weird searchterms, hoping you might get the old result which brought the information.
 
-Truth to be told, there are a lot of helpful tools and websites like Stackoverflow or Kite, which help you find the right tools for you needs. But sometimes you just want to skip the process of searching and just look at a specific resource, see what you need, implement it in your code and rock on. This is where Uebersichts Markdown-Preview Widget comes in handy. It shows you a non-interactional Panel on your Desktop like a background image, which monitors markdown files like README.md´s on Github.
+Truth to be told, there are a lot of helpful tools and websites like Stackoverflow, obiously google or Kite, which help you find the right tools for you needs, or eventually the function you search for. But sometimes you just want to skip the process of searching and just look at a specific resource, review what you needed, implement it in your code and rock on. 
 
-Now this is great for reviewing purposes, but what makes it really amazing is that you can switch between multiple markdownfiles.
+Now Uebersicht is, what i call, a widget-displayer-layer for mac, it gives you a panel which reads html and displays widget-content as a layer between your background and the mounted layer for the desctop icons on your desktop.
+Markdown-Preview is a widget for uebersicht, which enables you to print different markdown files to that uebersicht-widget-layer.
 
-You may ask "So, why the commandline kit ?", well, in order to change the currently viewed file, you need the advice the widget to change it, by giving the variable which holds the file to be monitorized, the file name you want to be displayed in the panel. There are two ways, either you do it manually in the code, or there is a workflow for the alfred application. Now, if you like me and find yourself more often playing with the terminal of choice, a tool to handle your Markdown-Preview panel and your markdownfiles, wouldn't just speed up your programming process, it gives you a great way to learn coding quicker.
+I used the Uebersicht Markdown-Preview for a long time now, what i did was collecting and writing a lot of markdown files, based on certain topics on coding, because if you like me and listen to or watch a lot tutorials or read articels and take notes from them, because i dont want to search for specific information again and again, then you gonna end up with a messy mountain of information, not beeing formatted or structured. Now try to find fundamentals, principles or certain details in there. Maybe you will, you know, chaos structured by geniuses, but i like to keep things clean and even findable for others as fast as possible.
+
+All good, now you know why to use tools like that, but one thing i missed with these was Speed. Sometimes i needed to switch between files, sometimes i know which file i was needing, sometimes not, the point is, there were actually 2 ways to do that, but non of them were immediately executable, neither human friendly.
+
+Well, in order to change the currently viewed file, you need to advice the widget to change it, by changing the value in a file, let´s call it "view-current-markdown", which holds the filename to be monitorized. 
+There are two ways, either you do it manually by editing the file, or there is a workflow for the alfred application, which you need to pay money for. 
+
+Now, if you like me and find yourself more often playing with the terminal of choice, a tool to handle your Markdown-Preview-Layer and your markdownfiles, wouldn't just speed up your programming process, it gives you a great way to review what you´ve written and by that learn coding quicker. A standart cli was born.
 
 Now all blabla´s away, let´s dive in. :)
-
-Note to me - beautify this instruction.
 
 ## In Production ( ToDo )
 
